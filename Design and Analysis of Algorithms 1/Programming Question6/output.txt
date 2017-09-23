@@ -1,0 +1,8 @@
+Starting to read the file
+Length of array : 999752
+time to read the file and insert into array = 0.990319013596
+time to take the unique keys from A = 3.40938568115e-05
+time to sort the array = 15.6235570908
+Length of array : 999752
+Number of elements where x+y=t are: 427
+time to count the t = 15646.352356
