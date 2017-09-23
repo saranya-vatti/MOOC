@@ -8,6 +8,7 @@ Taught by Andre Ng, provided by Stanford on [Coursera](https://www.coursera.org/
 
 ### Week 2
 
+* August 28, 2017 - September 3, 2017
 * Linear Regression with Multiple Variables
 * Octave/Matlab Tutorial
 * Programming Assignment - machine-learning-ex1 - Linear Regression (100%)
