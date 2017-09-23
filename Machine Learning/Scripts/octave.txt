@@ -1,0 +1,875 @@
+>>5+6
+ans =  11
+>>2^6
+ans =  64
+>>1==2 % false
+ans = 0
+>>1~=2
+ans = 1
+>>1 && 0
+ans = 0
+>>xor(1,0)
+ans = 1
+>>PS1('>>') % bash prompt
+>>a=3;
+>>b='hi';
+>>b
+b = hi
+>>c=(3>=1);
+>>c
+c = 1
+>>a=pi;
+>>a
+a =  3.1416
+>>disp(a);
+ 3.1416
+>>disp(sprintf('2 decimals: %0.2f',a))
+2 decimals: 3.14
+>>a
+a =  3.1416
+>>format long
+>>a
+a =  3.14159265358979
+>>format short
+>>a
+a =  3.1416
+>>A=[1 2; 3 4; 5 6]
+A =
+
+   1   2
+   3   4
+   5   6
+
+>>>>v=[1 2 3]
+v =
+
+   1   2   3
+
+>>v = [1; 2; 3]
+v =
+
+   1
+   2
+   3
+
+>>v = 1:0.1:2; % starts at 1, increments by 0.1 and ends at 2
+>>v
+v =
+
+    1.0000    1.1000    1.2000    1.3000    1.4000    1.5000    1.6000    1.7000    1.8000    1.9000    2.0000
+
+>>ones(2,3)
+ans =
+
+   1   1   1
+   1   1   1
+
+>>c=2*ones(2,3)
+c =
+
+   2   2   2
+   2   2   2
+
+>>C=[2 2 2; 2 2 2]
+C =
+
+   2   2   2
+   2   2   2
+
+>>w=ones(1,3)
+w =
+
+   1   1   1
+
+>>w=rand(1,3)
+w =
+
+   0.52411   0.77328   0.21016
+
+>>rand(3,3)
+ans =
+
+   0.94379   0.26740   0.53885
+   0.88793   0.32428   0.70697
+   0.23094   0.66803   0.68485
+
+>>rand(3,3)
+ans =
+
+   0.94379   0.26740   0.53885
+   0.88793   0.32428   0.70697
+   0.23094   0.66803   0.68485
+
+>>rand(3,3)
+ans =
+
+   0.048012   0.809306   0.874240
+   0.878426   0.050939   0.216745
+   0.454299   0.012115   0.848676
+
+>>w = randn(1,3); %gaussian
+>>w
+w =
+
+  -1.64260  -1.80164  -0.66596
+
+>>w = randn(1,3); %gaussian
+>>w
+w =
+
+  -0.47327   0.67276  -0.84782
+
+>>w=-6+sqrt(10)*(randn(1,1000))
+>>hist(w)
+>>hist(w,50); %50 more bins
+>>I = eye(4)
+I =
+
+Diagonal Matrix
+
+   1   0   0   0
+   0   1   0   0
+   0   0   1   0
+   0   0   0   1
+
+>>I = eye(6)
+I =
+
+Diagonal Matrix
+
+   1   0   0   0   0   0
+   0   1   0   0   0   0
+   0   0   1   0   0   0
+   0   0   0   1   0   0
+   0   0   0   0   1   0
+   0   0   0   0   0   1
+
+>>help rand
+'rand' is a built-in function from the file libinterp/corefcn/rand.cc
+
+ -- rand (N)
+ -- rand (M,
+
+
+
+
+
+>>A
+A =
+
+   1   2
+   3   4
+   5   6
+
+>>size(A)
+ans =
+
+   3   2
+
+>>sz=size(A)
+sz =
+
+   3   2
+
+>>size(sz)
+ans =
+
+   1   2
+
+>>size(A,1)
+ans =  3
+>>size(A,2)
+ans =  2
+>>v=[1 2 3 4]
+v =
+
+   1   2   3   4
+
+>>length(v)
+ans =  4
+>>length(A)
+ans =  3
+>>length([1;2;3;4;5])
+ans =  5
+>>pwd
+ans = C:\Users\saran
+>>cd .
+>>ls
+ Volume in drive C is Windows
+ Volume Serial Number is E21B-45DC
+
+ Directory of C:\Users\saran
+
+[.]             .gitconfig      [Downloads]     [Pictures]      [Videos]
+[..]            [.IdeaIC2017.2] [Favorites]     [Roaming]
+[.android]      [Contacts]      [Links]         [Saved Games]
+[.cache]        [Desktop]       [Music]         [Searches]
+[.config]       [Documents]     [OneDrive]      [Tracing]
+               1 File(s)             57 bytes
+              20 Dir(s)  136,183,148,544 bytes free
+>>load featuresX.dat %to load files into workspace
+>>featuresX
+>>who %displays all the variables in the current workspace
+Variables in the current scope:
+
+A    C    I    a    ans  b    c    sz   v    w
+
+>>whos %details display of the variables
+Variables in the current scope:
+
+   Attr Name        Size                     Bytes  Class
+   ==== ====        ====                     =====  =====
+        A           3x2                         48  double
+        C           2x3                         48  double
+        I           6x6                         48  double
+        a           1x1                          8  double
+        ans         1x14                        14  char
+        b           1x2                          2  char
+        c           2x3                         48  double
+        sz          1x2                         16  double
+        v           1x4                         32  double
+        w           1x1000                    8000  double
+
+Total is 1077 elements using 8264 bytes
+
+>>save hello.mat v; % saves in compressed format
+>>ls
+ Volume in drive C is Windows
+ Volume Serial Number is E21B-45DC
+
+ Directory of C:\Users\saran
+
+[.]             .gitconfig      [Downloads]     [OneDrive]      [Tracing]
+[..]            [.IdeaIC2017.2] [Favorites]     [Pictures]      [Videos]
+[.android]      [Contacts]      hello.mat       [Roaming]
+[.cache]        [Desktop]       [Links]         [Saved Games]
+[.config]       [Documents]     [Music]         [Searches]
+               2 File(s)            198 bytes
+              20 Dir(s)  136,185,569,280 bytes free
+>>whos
+>>who
+>>load hello.mat
+>>whos
+Variables in the current scope:
+
+   Attr Name        Size                     Bytes  Class
+   ==== ====        ====                     =====  =====
+        v           1x4                         32  double
+
+Total is 4 elements using 32 bytes
+
+>>v
+v =
+
+   1   2   3   4
+
+>>save hello.txt v -ascii; % save as text (ASCII)
+>>A=[1 2; 3 4; 5 6]
+A =
+
+   1   2
+   3   4
+   5   6
+
+>>A_32=A(3,2)
+A_32 =  6
+>>A(2,:)
+ans =
+
+   3   4
+
+>>A(:,2)
+ans =
+
+   2
+   4
+   6
+
+>>A([1 3], :)
+ans =
+
+   1   2
+   5   6
+
+>>v=[1; 2; 3]
+v =
+
+   1
+   2
+   3
+
+>>v .+ 1
+ans =
+
+   2
+   3
+   4
+
+>>v+ones(length(v),1)
+ans =
+
+   2
+   3
+   4
+
+>>v+1
+ans =
+
+   2
+   3
+   4
+
+>>A(:,2)=[10; 11; 12] %editing columns in place
+A =
+
+    1   10
+    3   11
+    5   12
+
+>>A=[A,[100; 101; 102]] %concatenating matrices
+A =
+
+     1    10   100
+     3    11   101
+     5    12   102
+
+>>A(:) % put all elements of A into a column vector
+ans =
+
+     1
+     3
+     5
+    10
+    11
+    12
+   100
+   101
+   102
+
+>>A = [1 2; 3 4; 5 6]
+A =
+
+   1   2
+   3   4
+   5   6
+
+>>B = [11 12; 13 14; 15 16]
+B =
+
+   11   12
+   13   14
+   15   16
+
+>>B
+B =
+
+   11   12
+   13   14
+   15   16
+
+>>C = [A B]
+C =
+
+    1    2   11   12
+    3    4   13   14
+    5    6   15   16
+
+>>C = [A; B]
+C =
+
+    1    2
+    3    4
+    5    6
+   11   12
+   13   14
+   15   16
+
+
+
+
+
+>>A = [1 2; 3 4; 5 6]
+A =
+
+   1   2
+   3   4
+   5   6
+
+>>B = [11 12; 13 14; 15 16]
+B =
+
+   11   12
+   13   14
+   15   16
+
+>>C = [1 1; 2 2]
+C =
+
+   1   1
+   2   2
+
+>>A*C % Matrix multiplication
+ans =
+
+    5    5
+   11   11
+   17   17
+
+ELEMENT WISE OPERATIONS
+>>A .* B % Element wise multiplication
+ans =
+
+   11   24
+   39   56
+   75   96
+
+
+
+>>A
+A =
+
+   1   2
+   3   4
+   5   6
+
+>>A .^ 2 % Element wise power
+ans =
+
+    1    4
+    9   16
+   25   36
+
+>> v =[1; 2; 3]
+v =
+
+   1
+   2
+   3
+
+>>v ./ v % Element wise reciprocal
+ans =
+
+   1
+   1
+   1
+
+>>
+>>1 ./ A %inverse of A
+ans =
+
+   1.00000   0.50000
+   0.33333   0.25000
+   0.20000   0.16667
+
+>>log(v) % element wise logarithm to the base e
+ans =
+
+   0.00000
+   0.69315
+   1.09861
+
+>>exp(v) % element wise exponential to the base e
+ans =
+
+    2.7183
+    7.3891
+   20.0855
+
+>>abs(v) % element wise absolute value
+ans =
+
+   1
+   2
+   3
+
+>>-v % same as -1 * v
+ans =
+
+  -1
+  -2
+  -3
+
+>>v + ones(length(v),1)
+ans =
+
+   2
+   3
+   4
+
+>>v+1
+ans =
+
+   2
+   3
+   4
+
+TRANSPOSE
+
+>>A
+A =
+
+   1   2
+   3   4
+   5   6
+
+>>A'
+ans =
+
+   1   3   5
+   2   4   6
+
+>>a = [1 15 2 0.5]
+a =
+
+    1.00000   15.00000    2.00000    0.50000
+
+>>val = max(a)
+val =  15
+>>[val, ind] = max(a)
+val =  15
+ind =  2
+>>max(A) % column wise maximum
+ans =
+
+   5   6
+
+>>a < 3 % element wise comparison
+ans =
+
+  1  0  1  1
+
+>>find(a < 3) % finds the elements that are less than 3
+ans =
+
+   1   3   4
+
+>>A = magic(3) % all the diagonals and columns and rows add up to the same thing
+A =
+
+   8   1   6
+   3   5   7
+   4   9   2
+
+>>[r, c] = find(A >= 7)
+r =
+
+   1
+   3
+   2
+
+c =
+
+   1
+   2
+   3
+
+>>sum(a) % adds all elements of a
+ans =  18.500
+>>prod(a) % returns product of all 4 elements of a
+ans =  15
+>>floor(a) % rounds down
+ans =
+
+    1   15    2    0
+
+>>ceil(a) % rounds up
+ans =
+
+    1   15    2    1
+
+>>max(rand(3), rand(3))
+ans =
+
+   0.22429   0.25534   0.22032
+   0.32939   0.72283   0.69633
+   0.80060   0.96913   0.99040
+
+>>A
+A =
+
+   8   1   6
+   3   5   7
+   4   9   2
+
+>>max(A,[],1) % takes column wise maximum
+ans =
+
+   8   9   7
+
+>>max(A,[],2) % takes row wise maximum
+ans =
+
+   8
+   7
+   9
+
+>>max(max(A))
+ans =  9
+>>max(A(:))
+ans =  9
+>>A = magic(9)
+A =
+
+   47   58   69   80    1   12   23   34   45
+   57   68   79    9   11   22   33   44   46
+   67   78    8   10   21   32   43   54   56
+   77    7   18   20   31   42   53   55   66
+    6   17   19   30   41   52   63   65   76
+   16   27   29   40   51   62   64   75    5
+   26   28   39   50   61   72   74    4   15
+   36   38   49   60   71   73    3   14   25
+   37   48   59   70   81    2   13   24   35
+
+>>sum(A,1) % per column sum
+ans =
+
+   369   369   369   369   369   369   369   369   369
+
+>>sum(A,2) % row wise sum
+ans =
+
+   369
+   369
+   369
+   369
+   369
+   369
+   369
+   369
+   369
+
+>>eye(9)
+ans =
+
+Diagonal Matrix
+
+   1   0   0   0   0   0   0   0   0
+   0   1   0   0   0   0   0   0   0
+   0   0   1   0   0   0   0   0   0
+   0   0   0   1   0   0   0   0   0
+   0   0   0   0   1   0   0   0   0
+   0   0   0   0   0   1   0   0   0
+   0   0   0   0   0   0   1   0   0
+   0   0   0   0   0   0   0   1   0
+   0   0   0   0   0   0   0   0   1
+
+>>A
+A =
+
+   47   58   69   80    1   12   23   34   45
+   57   68   79    9   11   22   33   44   46
+   67   78    8   10   21   32   43   54   56
+   77    7   18   20   31   42   53   55   66
+    6   17   19   30   41   52   63   65   76
+   16   27   29   40   51   62   64   75    5
+   26   28   39   50   61   72   74    4   15
+   36   38   49   60   71   73    3   14   25
+   37   48   59   70   81    2   13   24   35
+
+>>A .* eye(9)
+ans =
+
+   47    0    0    0    0    0    0    0    0
+    0   68    0    0    0    0    0    0    0
+    0    0    8    0    0    0    0    0    0
+    0    0    0   20    0    0    0    0    0
+    0    0    0    0   41    0    0    0    0
+    0    0    0    0    0   62    0    0    0
+    0    0    0    0    0    0   74    0    0
+    0    0    0    0    0    0    0   14    0
+    0    0    0    0    0    0    0    0   35
+
+>>sum(sum(A.*eye(9)))
+ans =  369
+>>sum(sum(A.*flipud(eye(9)))) % flip up down
+ans =  369
+>>flipud(eye(9))
+ans =
+
+Permutation Matrix
+
+   0   0   0   0   0   0   0   0   1
+   0   0   0   0   0   0   0   1   0
+   0   0   0   0   0   0   1   0   0
+   0   0   0   0   0   1   0   0   0
+   0   0   0   0   1   0   0   0   0
+   0   0   0   1   0   0   0   0   0
+   0   0   1   0   0   0   0   0   0
+   0   1   0   0   0   0   0   0   0
+   1   0   0   0   0   0   0   0   0
+
+>>A = magic(3)
+A =
+
+   8   1   6
+   3   5   7
+   4   9   2
+
+>>pinv(A)
+ans =
+
+   0.147222  -0.144444   0.063889
+  -0.061111   0.022222   0.105556
+  -0.019444   0.188889  -0.102778
+
+>>temp = pinv(A)
+temp =
+
+   0.147222  -0.144444   0.063889
+  -0.061111   0.022222   0.105556
+  -0.019444   0.188889  -0.102778
+
+>>temp * A
+ans =
+
+   1.00000   0.00000  -0.00000
+  -0.00000   1.00000   0.00000
+   0.00000   0.00000   1.00000
+
+>>t=[0:0.01:0.98];
+>>y1=sin(2*pi*4*t);
+>>plot(t,y1) % plot sin function
+
+>>y2 = cos(2*pi*4*t); % clears and plots cos function instead
+>>plot(t,y2);
+>>plot(t,y1); hold on; plot(t,y2,'r'); % plots both with a different color (red for cosine)
+>>xlabel('time')
+>>ylabel('value')
+>>legend('sin', 'cos')
+>>title('my plot')
+>>print -dpng 'myPlot.png'
+>>close
+
+>>figure(1); plot(t,y1);
+>>figure(2); plot(t,y2);
+>>subplot(1,2,1); % subdivides a plot into one by two grid and starts to access the first element
+>>plot(t,y1);
+>>subplot(1,2,2); % subdivides a plot into one by two grid and starts to access the second element
+>>plot(t,y2);
+>>axis([0.5 1 -1 1]) %horizontal range from 0.5 to 1 and vertical from -1 to 1
+>>clf; % clears figure
+
+>>A=magic(5)
+A =
+
+   17   24    1    8   15
+   23    5    7   14   16
+    4    6   13   20   22
+   10   12   19   21    3
+   11   18   25    2    9
+>>imagesc(A) % visualize a matrix
+>>imagesc(A), colorbar, colormap gray % visualize a matrix and sets a color map to gray color map and ont he right puts in the color bar
+
+>>a=1, b=2, c=3 % three commands one after another. comma chaining of commands or function calls
+a =  1
+b =  2
+c =  3
+
+>>for i=1:10
+>   v(i) = 2^i;
+> end;
+>>v
+v =
+
+      2      4      8     16     32     64    128    256    512   1024
+
+>>indices
+indices =
+
+    1    2    3    4    5    6    7    8    9   10
+
+>>for i=indices; % can also use break and continue
+>     disp(i);
+> end;
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+ 10
+
+>>i=1;
+>>while i <= 5,
+>   v(i) = 100;
+>   i = i+1;
+> end;
+>>
+
+>>i=1;
+>>while true,
+>   v(i) = 999;
+>   i = i+1;
+>   if i ==6,
+>     break;
+>   end;
+> end;
+>>v
+v =
+
+    999    999    999    999    999     64    128    256    512   1024
+
+>>if v(1) == 1,
+>   disp('The value is one'),
+> elseif v(1) == 2,
+>   disp('The value is two'),
+> else
+>   disp('The value is not one or two')
+> end;
+The value is two
+
+>>quit
+
+>>%Create a file called the funcName.m
+>>
+
+>>cd 'G:/Courses/Coursera - Stanford - ML/';
+>>squareThisNumber(5)
+ans =  25
+>>% Octave search path
+>>addpath('G:/Courses/Coursera - Stanford - ML/')
+>>cd 'C:\'
+>>squareThisNumber(2)
+ans =  4
+
+>>%returns multiple values
+>>[a b] = squareAndCubeThisNumber(5)
+a =  25
+b =  125
+
+>>X
+X =
+
+   1   1
+   1   2
+   1   3
+
+>>y
+y =
+
+   1
+   2
+   3
+>>theta=[0;1];
+>>j = costFunctionJ(X,y,theta)
+j = 0
+>> j = costFunctionJ(X,y,theta)
+j = 2.3333
+>> (1^2 + 2^2 + 3^2)/ (2*3)
+ans = 2.3333
+
+>>cd 'G:/Courses/Coursera - Stanford - ML/Week 5/machine-learning-ex4/ex4';
+
+>>Theta1 = ones(10,11);
+>>Theta2=2*ones(10,11);
+>>Theta3=3*ones(1,11);
+>>thetaVec = [Theta1(:); Theta2(:); Theta3(:)];
+>>size(thetaVec)
+ans =
+  231 1
+>> reshape(thetaVec(1:110), 10, 11)
+>> reshape(thetaVec(111:220), 10, 11)
+>> reshape(thetaVec(221:231), 1, 11)
