@@ -1,6 +1,7 @@
 # Machine Learning
 
 Taught by Andre Ng, provided by Stanford on [Coursera](https://www.coursera.org/learn/machine-learning/) . Session: August 21, 2017 to November 13, 2017.
+NOT TO BE USED FOR PLAGIARISM.
 
 ## Software used
 
