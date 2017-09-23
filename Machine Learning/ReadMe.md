@@ -14,6 +14,7 @@ Taught by Andre Ng, provided by Stanford on [Coursera](https://www.coursera.org/
 
 ### Week 1
 
+* August 21, 2017 - August 27, 2017
 * Introduction
 * Linear Regression with One Variable
 * Linear Algebra Review
@@ -23,6 +24,7 @@ Taught by Andre Ng, provided by Stanford on [Coursera](https://www.coursera.org/
 
 ### Week 2
 
+* August 28, 2017 - September 3, 2017
 * Linear Regression with Multiple Variables
 * Octave/Matlab Tutorial
 * Programming Assignment - machine-learning-ex1 - Linear Regression (100%)
@@ -32,6 +34,7 @@ Taught by Andre Ng, provided by Stanford on [Coursera](https://www.coursera.org/
 
 ### Week 3
 
+* September 4, 2017 - September 10, 2017
 * Logistic Regression
 * Regularization
 * Programming assignment - machine-learning-ex2 - Linear Regression (100%)
@@ -41,6 +44,7 @@ Taught by Andre Ng, provided by Stanford on [Coursera](https://www.coursera.org/
 
 ### Week 4
 
+* September 11, 2017 - September 17, 2017
 * Neural Networks: Representation
 * Programming assignment - machine-learning-ex3 - Multi-class Classification and Neural Networks (100%)
 * Quiz 1 (100%)
@@ -48,6 +52,7 @@ Taught by Andre Ng, provided by Stanford on [Coursera](https://www.coursera.org/
 
 ### Week 5
 
+* September 18, 2017 - September 24, 2017
 * Neural Networks: Learning
 * Programming assignment - machine-learning-ex4 - Neural Networks: Learning (100%)
 * Quiz 1 (80%)
@@ -55,6 +60,7 @@ Taught by Andre Ng, provided by Stanford on [Coursera](https://www.coursera.org/
 
 ### Week 6
 
+* September 25, 2017 - October 1, 2017
 * Advice for Applying Machine Learning
 * Programming assignment - machine-learning-ex5 - Regularized Linear Regression and Bias/Variance
 * Machine Learning System Design
