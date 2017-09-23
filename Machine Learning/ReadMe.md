@@ -28,7 +28,7 @@ NOT TO BE USED FOR PLAGIARISM.
 * August 28, 2017 - September 3, 2017
 * Linear Regression with Multiple Variables
 * Octave/Matlab Tutorial
-* Programming Assignment - machine-learning-ex1 - Linear Regression (100%)
+* Programming Assignment - [machine-learning-ex1](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex1) - Linear Regression (100%)
 * Quiz 1 (80%)
 * Quiz 2 (100%)
 * [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/QQx8l) (Includes Octave tutorial)
@@ -38,7 +38,7 @@ NOT TO BE USED FOR PLAGIARISM.
 * September 4, 2017 - September 10, 2017
 * Logistic Regression
 * Regularization
-* Programming assignment - machine-learning-ex2 - Linear Regression (100%)
+* Programming assignment - [machine-learning-ex2](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex2) - Linear Regression (100%)
 * Quiz 1 (80%)
 * Quiz 2 (80%)
 * [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/Zi29t)
@@ -47,7 +47,7 @@ NOT TO BE USED FOR PLAGIARISM.
 
 * September 11, 2017 - September 17, 2017
 * Neural Networks: Representation
-* Programming assignment - machine-learning-ex3 - Multi-class Classification and Neural Networks (100%)
+* Programming assignment - [machine-learning-ex3](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex3) - Multi-class Classification and Neural Networks (100%)
 * Quiz 1 (100%)
 * [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/RmTEz)
 
@@ -55,7 +55,7 @@ NOT TO BE USED FOR PLAGIARISM.
 
 * September 18, 2017 - September 24, 2017
 * Neural Networks: Learning
-* Programming assignment - machine-learning-ex4 - Neural Networks: Learning (100%)
+* Programming assignment - [machine-learning-ex4](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex4) - Neural Networks: Learning (100%)
 * Quiz 1 (80%)
 * [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/EcbzQ)
 
