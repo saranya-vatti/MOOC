@@ -18,8 +18,8 @@ Taught by Andre Ng, provided by Stanford on [Coursera](https://www.coursera.org/
 
 ### Useful links
 
-* [Programming Ex 1 Question](https://www.coursera.org/learn/machine-learning/programming/ZZkM2/k-means-clustering-and-pca)
-* [Programming Ex 1 Tutorial](https://www.coursera.org/learn/machine-learning/resources/O756o)
-* [Programming Ex 1 FAQ](https://www.coursera.org/learn/machine-learning/discussions/weeks/2/threads/pFcOND1SEeaDRA5SxbW7qQ)
+* [Programming Ex 2 Question](https://www.coursera.org/learn/machine-learning/programming/8f3qT/linear-regression)
+* [Programming Ex 2 Tutorial](https://www.coursera.org/learn/machine-learning/resources/fz4AU)
+* [Programming Ex 2 FAQ](https://www.coursera.org/learn/machine-learning/discussions/weeks/3/threads/poUNvD1-EeakuhJbRt69hQ)
 * [All Programming Exercise Tutorials](https://www.coursera.org/learn/machine-learning/discussions/all/threads/m0ZdvjSrEeWddiIAC9pDDA)
 * [All Programming Exercise Test Cases](https://www.coursera.org/learn/machine-learning/discussions/all/threads/0SxufTSrEeWPACIACw4G5w)
