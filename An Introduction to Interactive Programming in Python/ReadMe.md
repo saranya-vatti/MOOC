@@ -1,6 +1,6 @@
 # An Introduction to Interactive Programming in Python
 
-### Created by:  Rice University, on Coursera.
+### Provided by Rice University, on Coursera.
 
 As of September 24th, 2017 - split into [Part 1](https://www.coursera.org/learn/interactive-python-1) and [Part 2](https://www.coursera.org/learn/interactive-python-2)
 It was one part with 8 weeks when I did it. The session was from October 12, 2012 to December 9, 2012. Understandably, most of the programs do not run anymore due to the dependencies on resources in [CodeSkulptor](http://www.codeskulptor.org) (Example, presence of some images used in the games)
