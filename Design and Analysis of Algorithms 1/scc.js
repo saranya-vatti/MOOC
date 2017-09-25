@@ -1,7 +1,7 @@
 //for programming assignment
 //parsing the input
 console.log("Recursive solution");
-var inputArr = [[1, 2],  [1, 3],  [2, 1],  [2, 4],  [3, 2],  [4, 1]]
+var inputArr = [[1, 2], [2, 3], [2, 4], [2, 5], [3, 6], [4, 5], [4, 7], [5, 2], [5, 6], [5, 7], [6, 3], [6, 8], [7, 8], [7, 10], [8, 7], [9, 7], [10, 9], [10, 11], [11, 12], [12, 10]]
 var graph={};
 var max=0;
 for (var i = 0; i < inputArr.length; i++) {

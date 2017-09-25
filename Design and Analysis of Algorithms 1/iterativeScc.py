@@ -1,5 +1,4 @@
 #!/usr/bin/python
-#nohup python iterativeScc.py > out.txt 2>&1
 ##str="[["
 ##with open('tmp.txt') as f:
 ##    str+=("],[".join(line.strip() for line in f))
@@ -9,23 +8,28 @@ import time
 import sys
 #sys.setrecursionlimit(63000)
 graph={}
-MAX=4
-#MAX=875714
+MAX=0
 print "Starting to read the file"
 start_time = time.time()
-#with open('SCC.txt') as f:
-with open('tmp.txt') as f:
+with open('SCC.txt') as f:
+#with open('tmp.txt') as f:
     for line in f:
         head, tail = [int(x) for x in line.split()]
         if not head in graph:
             graph[head]=[]
-        graph[head].append(tail)
+        graph[head].append(tail);
 f.close()
 elapsed_time = time.time() - start_time
 print "time to read the file = " + str(elapsed_time)
-for index1 in range(1, MAX + 1):
-    if not index1 in graph:
-        graph[index1]=[]
+for ver in graph:
+    for vertex in graph[ver]:
+        if(MAX<vertex):
+            MAX=vertex
+    if(MAX<ver):
+        MAX=ver
+for i in range(1, MAX + 1):
+    if not i in graph:
+        graph[i]=[]
 elapsed_time = time.time() - start_time - elapsed_time
 print "Graph created in seconds " + str(elapsed_time)
 ###print graph
@@ -45,19 +49,21 @@ def DFSLoop(graph):
     t=0
     s=MAX
     ##assume nodes labelled 1 to n
-    for index2 in reversed(range(1, s + 1)):
-        if not index2 in exp:
-            s=index2
+    for i in range(1, s + 1):
+        ind=s - i
+        if not ind in exp:
+            s=ind
             print "s = " + str(s)
-            DFS(graph, index2)
+            DFS(graph, ind)
 
 def DFS(graph, node):
+    print "DFS start"
     global t
     global s
     global f
     global leader
     global exp
-    #print "DFS in node : " + str(node)
+    ###print "DFS in node : " + str(node)
     stack=[]
     stack.append(node)
     while(stack):
@@ -67,42 +73,40 @@ def DFS(graph, node):
         #print "DFS in node : " + str(node)
         end=True
         if node in graph:
-            for vertex1 in reversed(graph[node]):
-                if not vertex1 in exp:
+            for vertex in reversed(graph[node]):
+                if not vertex in exp:
                     end=False
-                    stack.append(vertex1)
+                    stack.append(vertex)
         if end:
             #print "Incrementing t"
             t=t+1
             #print "Assigning t " + str(t) + " to node " + str(node)
             f[node] = t
             rem=stack.pop()
-            len1=len(stack)
             stack[:] = [x for x in stack if x != rem]
-            len2=len(stack)
-            if len1 != len2:
-                print "stack length:" + str(len2)
+            print "stack length:" + str(len(stack))
+    print "DFS ended"
 
 print "Starting DFSLoop"
 DFSLoop(graph)
 elapsed_time = time.time() - elapsed_time - start_time
 print "Finishing time calculated in seconds " + str(elapsed_time)
-#print "Finishing time:"
-#print f
+print "Finishing time:"
+print f
 
 ##2nd pass
 ##reverse graph with nodes replaced with finishing times
 revGraph = {};
-for vertex2 in graph:
-    for vertex3 in graph[vertex2]:
-        if not f[vertex3] in revGraph:
-            revGraph[f[vertex3]] = []
-        revGraph[f[vertex3]].append(f[vertex2])
-for index3 in range(1, MAX + 1):
-    if not index3 in revGraph:
-        revGraph[index3]=[]
+for ver in graph:
+    for vertex in graph[ver]:
+        if not f[vertex] in revGraph:
+            revGraph[f[vertex]] = []
+        revGraph[f[vertex]].append(f[ver])
+for i in range(1, MAX + 1):
+    if not i in revGraph:
+        revGraph[i]=[]
 elapsed_time = time.time() - elapsed_time - start_time
-print "Reversed Graph created in seconds " + str(elapsed_time)
+print "Reveresed Graph created in seconds " + str(elapsed_time)
 #print "Reversed graph:"
 #print revGraph
 
@@ -119,15 +123,15 @@ print "Leaders calculated in seconds " + str(elapsed_time)
 ##For programming assignment
 sizeArr=[]
 sizeObj={}
-for index4 in leader:
-    if not leader[index4] in sizeObj:
-        sizeObj[leader[index4]] = 0
-    sizeObj[leader[index4]] = sizeObj[leader[index4]] + 1
+for  ind in leader:
+    if not leader[ind] in sizeObj:
+        sizeObj[leader[ind]] = 0
+    sizeObj[leader[ind]] = sizeObj[leader[ind]] + 1
 
 #print "sizeObj"
 #print sizeObj
-for index5 in sizeObj:
-    sizeArr.append(sizeObj[index5])
+for ind in sizeObj:
+    sizeArr.append(sizeObj[ind])
 #print "sizeArr"
 #print sizeArr
 
