@@ -65,8 +65,9 @@ NOT TO BE USED FOR PLAGIARISM.
 * Advice for Applying Machine Learning
 * Programming assignment - [machine-learning-ex5](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex5) - Regularized Linear Regression and Bias/Variance
 * Quiz 1 (100%)
-* [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/LIZza)
 * Machine Learning System Design
+* Quiz 2 (100%)
+* [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/LIZza)
 
 ### Week 7
 
