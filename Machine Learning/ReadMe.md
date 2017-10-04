@@ -71,8 +71,11 @@ NOT TO BE USED FOR PLAGIARISM.
 
 ### Week 7
 
+* October 2, 2017 - October 8, 2017
 * Support Vector Machines
-* Programming assignment - machine-learning-ex6 - Support Vector Machines
+* Programming assignment - [machine-learning-ex6](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex6) - Support Vector Machines
+* Quiz 1 (80%)
+* [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/Es9Qo)
 
 ### Week 8
 
