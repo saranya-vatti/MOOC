@@ -63,7 +63,7 @@ NOT TO BE USED FOR PLAGIARISM.
 
 * September 25, 2017 - October 1, 2017
 * Advice for Applying Machine Learning
-* Programming assignment - [machine-learning-ex5](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex5) - Regularized Linear Regression and Bias/Variance
+* Programming assignment - [machine-learning-ex5](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex5) - Regularized Linear Regression and Bias/Variance (100%)
 * Quiz 1 (100%)
 * Machine Learning System Design
 * Quiz 2 (100%)
@@ -73,12 +73,16 @@ NOT TO BE USED FOR PLAGIARISM.
 
 * October 2, 2017 - October 8, 2017
 * Support Vector Machines
-* Programming assignment - [machine-learning-ex6](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex6) - Support Vector Machines
+* Programming assignment - [machine-learning-ex6](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex6) - Support Vector Machines (100%)
 * Quiz 1 (80%)
 * [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/Es9Qo)
 
 ### Week 8
 
+* October 9, 2017 - October 15, 2017
 * Unsupervised Learning
+* Quiz 1 (100%)
 * Dimensionality Reduction
-* Programming assignment - machine-learning-ex7 - K-Means Clustering and PCA
+* Quiz 2 (100%)
+* Programming assignment - [machine-learning-ex7](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex7) - K-Means Clustering and PCA
+* [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/kGWsY)
