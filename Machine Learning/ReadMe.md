@@ -84,7 +84,7 @@ NOT TO BE USED FOR PLAGIARISM.
 * Quiz 1 (100%)
 * Dimensionality Reduction
 * Quiz 2 (100%)
-* Programming assignment - [machine-learning-ex7](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex7) - K-Means Clustering and PCA
+* Programming assignment - [machine-learning-ex7](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex7) - K-Means Clustering and PCA (100%)
 * [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/kGWsY)
 
 ### Week 9
@@ -94,7 +94,7 @@ NOT TO BE USED FOR PLAGIARISM.
 * Quiz 1 (100%)
 * Recommender Systems
 * Quiz 2 (80%)
-* Programming assignment - [machine-learning-ex8](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex8) - Anomaly Detection and Recommender Systems
+* Programming assignment - [machine-learning-ex8](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex8) - Anomaly Detection and Recommender Systems (100%)
 * [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/szFCa)
 
 ### Week 10
