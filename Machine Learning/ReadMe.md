@@ -108,4 +108,4 @@ NOT TO BE USED FOR PLAGIARISM.
 
 * October 31, 2017 - November 06, 2017
 * Application: Photo OCR
-* Quiz
+* Quiz (100%)
