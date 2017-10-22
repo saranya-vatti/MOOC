@@ -79,10 +79,33 @@ NOT TO BE USED FOR PLAGIARISM.
 
 ### Week 8
 
-* October 9, 2017 - October 15, 2017
+* October 9, 2017 - October 16, 2017
 * Unsupervised Learning
 * Quiz 1 (100%)
 * Dimensionality Reduction
 * Quiz 2 (100%)
 * Programming assignment - [machine-learning-ex7](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex7) - K-Means Clustering and PCA
 * [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/kGWsY)
+
+### Week 9
+
+* October 17, 2017 - October 23, 2017
+* Anomaly Detection System
+* Quiz 1 (100%)
+* Recommender Systems
+* Quiz 2 (80%)
+* Programming assignment - [machine-learning-ex8](https://github.com/saranya-vatti/MOOC/tree/master/Machine%20Learning/machine-learning-ex8) - Anomaly Detection and Recommender Systems
+* [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/szFCa)
+
+### Week 10
+
+* October 24, 2017 - October 30, 2017
+* Large Scale Machine Learning
+* Quiz (100%)
+* [Lecture Notes](https://www.coursera.org/learn/machine-learning/resources/srQ23)
+
+### Week 11
+
+* October 31, 2017 - November 06, 2017
+* Application: Photo OCR
+* Quiz
