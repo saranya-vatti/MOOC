@@ -109,3 +109,5 @@ NOT TO BE USED FOR PLAGIARISM.
 * October 31, 2017 - November 06, 2017
 * Application: Photo OCR
 * Quiz (100%)
+
+Final Course Grade (97.3%)
