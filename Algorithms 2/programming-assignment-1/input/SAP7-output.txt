@@ -1,0 +1,7 @@
+Graph : 2 vertices, 0 edges 
+0: 
+1: 
+
+length, ancestor between 1 and 1 is 0, 1
+
+Process finished with exit code 0

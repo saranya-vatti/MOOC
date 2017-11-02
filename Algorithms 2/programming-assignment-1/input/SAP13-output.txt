@@ -1,0 +1,69 @@
+Graph : 11 vertices, 11 edges 
+0: 10 1 
+1: 2 
+2: 3 
+3: 
+4: 2 
+5: 4 
+6: 7 5 
+7: 
+8: 7 
+9: 8 
+10: 9 
+
+Shortest distance from 0 to 0 is 0
+Shortest distance from 0 to 1 is 1
+Shortest distance from 0 to 2 is 2
+Shortest distance from 0 to 3 is 3
+Shortest distance from 0 to 7 is 4
+Shortest distance from 0 to 8 is 3
+Shortest distance from 0 to 9 is 2
+Shortest distance from 0 to 10 is 1
+Shortest distance from 1 to 2 is 1
+length, ancestor between 0 and 1 is 1, 1
+Shortest distance from 0 to 0 is 0
+Shortest distance from 0 to 1 is 1
+Shortest distance from 0 to 2 is 2
+Shortest distance from 0 to 3 is 3
+Shortest distance from 0 to 7 is 4
+Shortest distance from 0 to 8 is 3
+Shortest distance from 0 to 9 is 2
+Shortest distance from 0 to 10 is 1
+length, ancestor between 0 and 3 is 3, 3
+Shortest distance from 1 to 1 is 0
+Shortest distance from 1 to 2 is 1
+Shortest distance from 1 to 3 is 2
+Shortest distance from 4 to 2 is 1
+length, ancestor between 1 and 4 is 2, 2
+Shortest distance from 2 to 2 is 0
+Shortest distance from 2 to 3 is 1
+Shortest distance from 4 to 2 is 1
+length, ancestor between 2 and 4 is 1, 2
+Shortest distance from 0 to 0 is 0
+Shortest distance from 0 to 1 is 1
+Shortest distance from 0 to 2 is 2
+Shortest distance from 0 to 3 is 3
+Shortest distance from 0 to 7 is 4
+Shortest distance from 0 to 8 is 3
+Shortest distance from 0 to 9 is 2
+Shortest distance from 0 to 10 is 1
+Shortest distance from 9 to 8 is 1
+length, ancestor between 0 and 9 is 2, 9
+Shortest distance from 9 to 7 is 2
+Shortest distance from 9 to 8 is 1
+Shortest distance from 9 to 9 is 0
+Shortest distance from 0 to 10 is 1
+Shortest distance from 0 to 1 is 1
+Shortest distance from 0 to 9 is 2
+length, ancestor between 9 and 0 is 2, 9
+Shortest distance from 6 to 2 is 3
+Shortest distance from 6 to 3 is 4
+Shortest distance from 6 to 4 is 2
+Shortest distance from 6 to 5 is 1
+Shortest distance from 6 to 6 is 0
+Shortest distance from 6 to 7 is 1
+Shortest distance from 9 to 8 is 1
+Shortest distance from 9 to 7 is 2
+length, ancestor between 6 and 9 is 3, 7
+
+Process finished with exit code 0

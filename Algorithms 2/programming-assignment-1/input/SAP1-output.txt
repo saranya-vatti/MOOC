@@ -1,0 +1,40 @@
+Graph : 13 vertices, 11 edges 
+0: 
+1: 0 
+2: 0 
+3: 1 
+4: 1 
+5: 1 
+6: 
+7: 3 
+8: 3 
+9: 5 
+10: 5 
+11: 10 
+12: 10 
+
+Shortest distance from 3 to 0 is 2
+Shortest distance from 3 to 1 is 1
+Shortest distance from 3 to 3 is 0
+Shortest distance from 11 to 10 is 1
+Shortest distance from 11 to 5 is 2
+Shortest distance from 11 to 1 is 3
+length, ancestor between 3 and 11 is 4, 1
+Shortest distance from 9 to 0 is 3
+Shortest distance from 9 to 1 is 2
+Shortest distance from 9 to 5 is 1
+Shortest distance from 9 to 9 is 0
+Shortest distance from 12 to 10 is 1
+Shortest distance from 12 to 5 is 2
+length, ancestor between 9 and 12 is 3, 5
+Shortest distance from 7 to 0 is 3
+Shortest distance from 7 to 1 is 2
+Shortest distance from 7 to 3 is 1
+Shortest distance from 7 to 7 is 0
+Shortest distance from 2 to 0 is 1
+length, ancestor between 7 and 2 is 4, 0
+Shortest distance from 1 to 0 is 1
+Shortest distance from 1 to 1 is 0
+length, ancestor between 1 and 6 is -1, -1
+
+Process finished with exit code 0

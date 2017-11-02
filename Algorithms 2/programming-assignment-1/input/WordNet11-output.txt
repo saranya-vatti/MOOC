@@ -1,0 +1,24 @@
+Graph : 11 vertices, 12 edges 
+0: 10 1 
+1: 2 
+2: 
+3: 4 
+4: 2 
+5: 4 
+6: 7 5 
+7: 2 
+8: 7 
+9: 8 
+10: 9 
+
+Root of the graph : 2
+numOfSynsets = 11
+nouns = [a, b, c, d, e, f, g, h, i, j, k]
+dist, sap between a and b is 1 and b
+dist, sap between a and j is 2 and j
+dist, sap between j and a is 2 and j
+dist, sap between d and h is 3 and c
+dist, sap between g and i is 2 and h
+dist, sap between i and a is 4 and c
+
+Process finished with exit code 0

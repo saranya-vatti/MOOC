@@ -1,0 +1,14 @@
+Graph : 5 vertices, 3 edges 
+0: 
+1: 2 
+2: 3 
+3: 4 
+4: 
+
+Shortest distance from 1 to 1 is 0
+Shortest distance from 1 to 2 is 1
+Shortest distance from 1 to 3 is 2
+Shortest distance from 1 to 4 is 3
+length, ancestor between 1 and 4 is 3, 4
+
+Process finished with exit code 0

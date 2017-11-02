@@ -1,0 +1,8 @@
+input/synsets11.txt input/hypernyms11AmbiguousAncestor.txt
+6
+a b
+a j
+j a
+d h
+g i
+i a

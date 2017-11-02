@@ -1,0 +1,12 @@
+input/synsets11.txt input/hypernyms11ManyPathsOneAncestor.txt
+10
+a b
+b a
+b i
+i b
+j a
+a j
+a d
+d a
+j e
+e j
