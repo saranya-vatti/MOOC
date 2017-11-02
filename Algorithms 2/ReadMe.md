@@ -16,7 +16,7 @@ NOT TO BE USED FOR PLAGIARISM.
 * [Assessment Guide](https://www.coursera.org/learn/algorithms-part2/resources/EoHNB)
 * [Machine Learning Resources](https://www.coursera.org/learn/machine-learning/resources/NrY2G) (Sites, books, libraries, etc)
 
-### Week 1
+### [Week 1](https://github.com/saranya-vatti/MOOC/tree/master/Algorithms 2/programming-assignment-1)
 
 * October 24, 2017 - October 30, 2017
 * Undirected Graphs
@@ -26,7 +26,7 @@ NOT TO BE USED FOR PLAGIARISM.
 * [Programming assignment 1 FAQ](http://coursera.cs.princeton.edu/algs4/checklists/wordnet.html)
 * [Week 1 Discussion Forum](https://www.coursera.org/learn/algorithms-part2/discussions/weeks/1)
 
-### Week 2
+### [Week 2](https://github.com/saranya-vatti/MOOC/tree/master/Algorithms 2/programming-assignment-2)
 
 * October 24, 2017 - October 30, 2017
 * Minimum Spanning Trees
