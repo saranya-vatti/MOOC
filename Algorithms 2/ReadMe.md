@@ -16,22 +16,22 @@ NOT TO BE USED FOR PLAGIARISM.
 * [Assessment Guide](https://www.coursera.org/learn/algorithms-part2/resources/EoHNB)
 * [Machine Learning Resources](https://www.coursera.org/learn/machine-learning/resources/NrY2G) (Sites, books, libraries, etc)
 
-### [Week 1](https://github.com/saranya-vatti/MOOC/tree/master/Algorithms 2/programming-assignment-1)
+### Week 1
 
 * October 24, 2017 - October 30, 2017
 * Undirected Graphs
 * Directed Graphs
-* [Programming assignment 1](https://www.coursera.org/learn/algorithms-part2/programming/BCNsp/wordnet): Wordnet (100%)
-* [Assignment Specification](http://coursera.cs.princeton.edu/algs4/assignments/wordnet.html)
+* [Programming assignment 1](https://github.com/saranya-vatti/MOOC/tree/master/Algorithms 2/programming-assignment-1): Wordnet (100%)
+* [Assignment Specification](https://www.coursera.org/learn/algorithms-part2/programming/BCNsp/wordnet)
 * [Programming assignment 1 FAQ](http://coursera.cs.princeton.edu/algs4/checklists/wordnet.html)
 * [Week 1 Discussion Forum](https://www.coursera.org/learn/algorithms-part2/discussions/weeks/1)
 
-### [Week 2](https://github.com/saranya-vatti/MOOC/tree/master/Algorithms 2/programming-assignment-2)
+### Week 2
 
 * October 24, 2017 - October 30, 2017
 * Minimum Spanning Trees
 * Shortest paths
-* [Programming assignment 2](https://www.coursera.org/learn/algorithms-part2/programming/cOdkz/seam-carving): Seam Carving ()
-* [Assignment Specification](http://coursera.cs.princeton.edu/algs4/assignments/seam.html)
-* [Programming assignment 1 FAQ](http://coursera.cs.princeton.edu/algs4/checklists/seam.html)
-* [Week 1 Discussion Forum](https://www.coursera.org/learn/algorithms-part2/discussions/weeks/2)
+* [Programming assignment 2](https://github.com/saranya-vatti/MOOC/tree/master/Algorithms 2/programming-assignment-2): Seam Carving ()
+* [Assignment Specification](https://www.coursera.org/learn/algorithms-part2/programming/cOdkz/seam-carving)
+* [Programming assignment 2 FAQ](http://coursera.cs.princeton.edu/algs4/checklists/seam.html)
+* [Week 2 Discussion Forum](https://www.coursera.org/learn/algorithms-part2/discussions/weeks/2)
