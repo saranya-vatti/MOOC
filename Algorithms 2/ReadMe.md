@@ -1,6 +1,6 @@
 # Algorithms, Part II
 
-Taught by Robert Sedgewick, provided by Princeton on [Coursera](https://www.coursera.org/learn/algorithms-part2/) . Session: October 24, 2017 to December 11, 2017.
+Taught by Robert Sedgewick, provided by Princeton on [Coursera](https://www.coursera.org/learn/algorithms-part2/) . Session: November 20, 2017 to January 8, 2018.
 NOT TO BE USED FOR PLAGIARISM.
 
 ## Software used
@@ -28,7 +28,7 @@ NOT TO BE USED FOR PLAGIARISM.
 
 ### Week 2
 
-* October 24, 2017 - October 30, 2017
+* November 28, 2017 - December 4, 2017
 * Minimum Spanning Trees
 * Shortest paths
 * [Programming assignment 2](https://github.com/saranya-vatti/MOOC/tree/master/Algorithms 2/programming-assignment-2): Seam Carving ()
