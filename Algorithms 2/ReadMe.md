@@ -18,7 +18,7 @@ NOT TO BE USED FOR PLAGIARISM.
 
 ### Week 1
 
-* October 24, 2017 - October 30, 2017
+* November 20, 2017 - November 27, 2017
 * Undirected Graphs
 * Directed Graphs
 * [Programming assignment 1](https://github.com/saranya-vatti/MOOC/tree/master/Algorithms 2/programming-assignment-1): Wordnet (100%)
