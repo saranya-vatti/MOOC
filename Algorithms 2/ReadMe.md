@@ -21,7 +21,7 @@ NOT TO BE USED FOR PLAGIARISM.
 * November 20, 2017 - November 27, 2017
 * Undirected Graphs
 * Directed Graphs
-* [Programming assignment 1](https://github.com/saranya-vatti/MOOC/tree/master/Algorithms 2/programming-assignment-1): Wordnet (100%)
+* [Programming assignment 1](https://github.com/saranya-vatti/MOOC/tree/master/Algorithms%202/programming-assignment-1): Wordnet (100%)
 * [Assignment Specification](https://www.coursera.org/learn/algorithms-part2/programming/BCNsp/wordnet)
 * [Programming assignment 1 FAQ](http://coursera.cs.princeton.edu/algs4/checklists/wordnet.html)
 * [Week 1 Discussion Forum](https://www.coursera.org/learn/algorithms-part2/discussions/weeks/1)
@@ -31,7 +31,7 @@ NOT TO BE USED FOR PLAGIARISM.
 * November 28, 2017 - December 4, 2017
 * Minimum Spanning Trees
 * Shortest paths
-* [Programming assignment 2](https://github.com/saranya-vatti/MOOC/tree/master/Algorithms 2/programming-assignment-2): Seam Carving ()
+* [Programming assignment 2](https://github.com/saranya-vatti/MOOC/tree/master/Algorithms%202/programming-assignment-2): Seam Carving ()
 * [Assignment Specification](https://www.coursera.org/learn/algorithms-part2/programming/cOdkz/seam-carving)
 * [Programming assignment 2 FAQ](http://coursera.cs.princeton.edu/algs4/checklists/seam.html)
 * [Week 2 Discussion Forum](https://www.coursera.org/learn/algorithms-part2/discussions/weeks/2)
